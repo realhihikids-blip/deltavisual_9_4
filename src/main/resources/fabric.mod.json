@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "delta_visuals",
+  "version": "${version}",
+  "name": "DELTA VISUALS",
+  "description": "Client-side visual mod: custom sky, hit sounds, item position, solid-geometry Target ESP, trails, hit effects, ClickGUI, profiles, markers, Delta Visuals user logos. Purely cosmetic, no particles, no combat advantages.",
+  "authors": ["DELTA VISUALS"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/delta_visuals/icon.png",
+  "environment": "client",
+  "mixins": ["delta_visuals.mixins.json"],
+  "entrypoints": {
+    "client": ["dev.deltavisuals.DeltaVisuals"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "delta_visuals:font/logo.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE000"]
+    }
+  ]
+}

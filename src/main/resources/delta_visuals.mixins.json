@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.deltavisuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HeldItemRendererMixin",
+    "PlayerListHudMixin",
+    "EntityDisplayNameMixin",
+    "PlayerDisplayNameMixin",
+    "LivingEntityStatusMixin",
+    "GameRendererFovMixin",
+    "EntityRendererMotionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
